@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="160px" src="https://tianyuhao.cn/fighting/imgs/FightingDesign.svg">
+  <!-- <img height="160px" src="https://tianyuhao.cn/fighting/imgs/FightingDesign.svg"> -->
   <h2 align="center" style="font-weight: 600">undash.js</h2>
 
 
@@ -19,15 +19,15 @@
 
 ## ✨ 特性
 
-💪 使用 TypeScript 最新特性开发
-🐆 全面基于 unbuild 进行打包构建
-🛠 功能强大，满足日常开发的大部分场景
-🪐 不同打包模式，兼容不同项目
-🏆 支持完整引入和按需引入
-💨 配置简单，上手容易
-🚩 单元测试
-👍 社区团队维护
-📃 优质详细的文档
+- 💪 使用 TypeScript 最新特性开发
+- 🐆 全面基于 unbuild 进行打包构建
+- 🛠 功能强大，满足日常开发的大部分场景
+- 🪐 不同打包模式，兼容不同项目
+- 🏆 支持完整引入和按需引入
+- 💨 配置简单，上手容易
+- 🚩 单元测试
+- 👍 社区团队维护
+- 📃 优质详细的文档
 
 
 <!-- ## :key: 安装 -->

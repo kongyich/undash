@@ -1,0 +1,29 @@
+{
+  "name": "undash",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint src --fix",
+    "build": "unbuild",
+    "release": "npx bumpp --commit --push --tag"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "unbuild": "^0.7.6"
+  },
+  "devDependencies": {
+    "vitest": "^0.19.0"
+  }
+}

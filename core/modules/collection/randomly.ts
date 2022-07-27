@@ -2,6 +2,11 @@ import { isArray, values } from "../../internal/_utils";
 import random from "../function/random";
 import toArray from "../function/toArray";
 
+/**
+ * @param {Array|Object} collection 
+ * @param {Number} num 
+ * @returns {Any}
+*/
 
 export default function randomly(collection, num) {
   if(num == null) {

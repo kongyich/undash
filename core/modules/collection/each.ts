@@ -1,5 +1,4 @@
 import { isArray } from '../../internal/_utils';
-// import { loopDeal } from '../../utils/_loopDeal'
 
 /**
  * @param {Array|Object} collection 
@@ -8,7 +7,7 @@ import { isArray } from '../../internal/_utils';
  * @returns {Array|Object}
 */
 
-export default function each(collection, iteratee, context) {
+export default function each(collection, iteratee, context?) {
   let keys = !isArray(collection) && Object.keys(collection)
   let length = (keys || collection).length
   let index = 0;

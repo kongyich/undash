@@ -1,6 +1,13 @@
 import isBoolean from "../../internal/_isBoolean";
 import contains from "../collection/contains";
 
+/**
+ * @param {Array} array 
+ * @param {Boolean} isSorted 
+ * @param {Function} iteratee
+ * @param {Object} context
+ * @returns {Array}
+*/
 
 export default function uniq(array, isSorted, iteratee, context) {
   if(!isBoolean(isSorted)) {

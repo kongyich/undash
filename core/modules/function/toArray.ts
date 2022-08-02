@@ -1,4 +1,4 @@
-import values from "../../internal/values"
+import values from "../../internal/_values"
 import iteratorToArray from "../../internal/_iteratorToArray"
 import mapToArray from "../../internal/_mapToArray"
 import setToArray from "../../internal/_setToArray"

@@ -1,4 +1,4 @@
 
 export default function isFunction(value) {
-  return true
+  return typeof value === 'function'
 }

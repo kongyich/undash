@@ -11,6 +11,7 @@ import reject from './reject'
 import some from './some'
 import randomly from './randomly'
 import random from '../function/random'
+import invoke from './invoke'
 
 
 export {
@@ -26,5 +27,6 @@ export {
   reject,
   some,
   randomly,
-  random
+  random,
+  invoke
 }

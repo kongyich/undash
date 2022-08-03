@@ -6,7 +6,7 @@ import { isArray } from "../../internal/_utils"
  * @returns {Array|Object}
 */
 
-export default function map(collection, iteratee, context) {
+export default function map(collection, iteratee, context?) {
   let index = -1
   let keys = !isArray(collection) && Object.keys(collection)
   let length = (keys || collection).length

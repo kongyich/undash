@@ -1,5 +1,5 @@
 import { isArray } from "../../internal/_utils";
-import findIndex from "./findIndex";
+import findIndex from "../array/findIndex";
 import findKey from "./findKey";
 
 

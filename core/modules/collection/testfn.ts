@@ -1,4 +1,4 @@
-export const testfn = function(a: Array<number>) {
+export default function testfn (a: Array<number>) {
   console.log('testfn')
   
   return 1

@@ -12,6 +12,8 @@ import some from './some'
 import randomly from './randomly'
 import random from '../function/random'
 import invoke from './invoke'
+import testFn from './testFn'
+import deepClone from './deepClone'
 
 
 export {
@@ -28,5 +30,7 @@ export {
   some,
   randomly,
   random,
-  invoke
+  invoke,
+  testFn,
+  deepClone
 }

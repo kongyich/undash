@@ -12,9 +12,7 @@ export default function max(collection, iteratee, context) {
         result = value
       }
     }
-
   } else {
-  
     each(collection, (item, index, list) => {
       computed = iteratee.call(context, item, index, list)
 

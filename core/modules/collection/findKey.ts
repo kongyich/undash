@@ -1,6 +1,5 @@
 import { keys } from "../../internal/_utils";
 
-
 export default function findKey(collection, iteratee, context) {
   let _keys = keys(collection), key;
 

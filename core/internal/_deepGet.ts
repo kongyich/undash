@@ -1,5 +1,3 @@
-
-
 export default function deepGet(obj, path) {
   let length = path.length
   for(let i = 0; i < length; i++) {

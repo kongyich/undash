@@ -65,3 +65,5 @@ export default function throttle(func, wait, options = {}) {
   };
   return throttled;
 }
+
+

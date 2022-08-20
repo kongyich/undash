@@ -1,4 +1,4 @@
-import { isArray } from "./_typeRelated"
+import { isArray } from "./_utils"
 
 export function loopDeal(data, fn, context) {
   let keys = !isArray(data) && Object.keys(data)

@@ -9,7 +9,7 @@ import contains from "../collection/contains";
  * @returns {Array}
 */
 
-export default function uniq(array, isSorted, iteratee, context) {
+export default function uniq(array, isSorted?, iteratee?, context?) {
   if(!isBoolean(isSorted)) {
     context = iteratee
     iteratee = isSorted

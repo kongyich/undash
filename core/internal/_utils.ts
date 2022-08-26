@@ -9,3 +9,6 @@ export const hasOwnProperty = Object.prototype.hasOwnProperty
 export const has = function(obj, key) {
   return obj != null && hasOwnProperty.call(obj, key);
 }
+
+
+export const slice = Array.prototype.slice

@@ -1,5 +1,7 @@
 
-
+// function(arrays) {
+//   return uniq(flatten(arrays, true, true));
+// }
 export default function rest(fn, startIndex?) {
   startIndex = startIndex == null ? fn.length - 1 : +startIndex
 

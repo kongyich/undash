@@ -1,4 +1,3 @@
-
 const toString = Object.prototype.toString
 export default function getType(value) {
   let res
